@@ -125,7 +125,7 @@ key: "fe6093ce4e"
 `@part1`
 - Upper and lower bounds
     - Straddle mean
--
+- Mean outside of bounds
 
 
 `@part2`
@@ -138,6 +138,26 @@ We typically refer to confidence intervals by their upper and lower bounds aroun
 As such, half of the confidence interval we calculated will lie above the mean, while the other half will fall below. If the mean of our sales predictions falls outside of these bounds, we can say fairly confidently that these predictions differ significantly from reality.
 
 Let's practice calculating upper and lower bounds.
+
+
+---
+## Out of Bounds
+
+```yaml
+type: "TwoColumns"
+key: "b16cfd0244"
+```
+
+`@part1`
+
+
+
+`@part2`
+
+
+
+`@script`
+
 
 
 ---
