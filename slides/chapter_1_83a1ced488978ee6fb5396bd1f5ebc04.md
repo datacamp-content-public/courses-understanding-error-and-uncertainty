@@ -58,7 +58,7 @@ Confidence intervals, or CI for short, can help us do just that. They can assess
 
 Confidence intervals are ranges of values that contain the true parameter a certain percentage of the time. When calculating CIs, we specify how much certainty we expect to have. For example, if we collect data 100 different times, a 95% confidence interval will contain the true value 95 of those times.
 
-CIs vary based on three factors: 1) the alpha, or confidence level; 2) the variance of the data, as measured by its standard deviation; and 3) the number of observations the data set contains. 
+CIs vary based on three factors: 1) the alpha, or confidence level; 2) the variance of the data, as measured by the standard deviation--or average distance from the average; and 3) the number of observations the data set contains. 
 
 The higher the confidence level, the larger the interval. This should make intuitive sense. A larger range (or interval), gives us more confidence that a given value will fall within it. A typical alpha level is 0.05 for 95% confidence. 
 
@@ -76,22 +76,22 @@ key: "02c00250e9"
 ```
 
 `@part1`
-- n = 19 {{1}}
+- n = `19` {{1}}
     - `-=COUNT(A2:A20)`{{1}}
-- mean = 40 {{2}}
+- mean = `40` {{2}}
    - `=AVERAGE(A2:A20)` {{2}}
-- alpha = 0.05
-- standard deviation = 28.35
-    - `=STDEV(A2:A20)`
--
+- alpha = `0.05` {{3}}
+- standard deviation = `28.35` {{4}}
+    - `=STDEV(A2:A20)` {{4}}
+- confidence interval: `=CONFIDENCE(0.05, STDEV(A2:A20), COUNT(A2:A20))` {{5}}
 
 
 `@part2`
-![](https://assets.datacamp.com/production/repositories/4139/datasets/2557b5a995df2663f963e3b8b0feeb1776d5aeea/dc4.PNG)
+![](https://assets.datacamp.com/production/repositories/4139/datasets/2557b5a995df2663f963e3b8b0feeb1776d5aeea/dc4.PNG){{1}}
 
 
 `@script`
-Now let's calculate confidence intervals. Recall that our data set had 19 observations and a mean of 40. Let's set alpha equal to 0.05 for a 95% confidence level.
+Now let's calculate confidence intervals. Recall that our data set had 19 observations and a mean of 40. Let's set alpha equal to 0.05 for a 95% confidence level. We can use the STDEV formula to calculate the standard deviation of the data
 
 
 ---
