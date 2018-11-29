@@ -45,13 +45,16 @@ key: "b441ad0dc3"
 ```
 
 `@part1`
-- Ranges of values that contain the true value X% of the time {{1}}
+- Ranges of values that contain the true parameter X% of the time {{1}}
     - Example: 95% CI contains the true value 95 of 100 data collections
-- Used to determine how accurate predictions are {{2}}
+- {{2}}
+- Can assess how accurate predictions are {{3}}
 
 
 `@script`
-Confidence intervals can help us do just that. They can assess the accuracy of our predictions by estimating the amount of error in the data.
+Confidence intervals, or CI for short, can help us do just that. They can assess the accuracy of our predictions by estimating the amount of error in the data. 
+
+Confidence intervals are ranges of values that contain the true parameter a certain percentage of the time. When calculating CIs, we specify how much certainty we expect to have. For example, if we collect data 100 different times, a 95% confidence interval will contain the true value 95 of those times.
 
 
 ---
