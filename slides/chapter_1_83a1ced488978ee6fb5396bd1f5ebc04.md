@@ -131,7 +131,7 @@ key: "fe6093ce4e"
 
 
 `@script`
-We typically refer to confidence intervals by their upper and lower bounds around the mean. Let's practice calculating these. Let's say we want to calculate the upper and lower bounds of a 95% confidence interval for the average sales over the last 19 days.
+We typically refer to confidence intervals by their upper and lower bounds of the mean. Let's practice calculating these. Let's say we want to calculate the upper and lower bounds of a 95% confidence interval for the average sales over the last 19 days.
 
 
 ---
