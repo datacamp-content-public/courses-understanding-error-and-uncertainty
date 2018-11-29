@@ -83,7 +83,6 @@ key: "02c00250e9"
 - alpha = `0.05` {{3}}
 - standard deviation = `28.35` {{4}}
     - `=STDEV(A2:A20)` {{4}}
-- confidence interval: `=CONFIDENCE(0.05, STDEV(A2:A20), COUNT(A2:A20))` {{5}}
 
 
 `@part2`
@@ -91,7 +90,7 @@ key: "02c00250e9"
 
 
 `@script`
-Now let's calculate confidence intervals. Recall that our data set had 19 observations and a mean of 40. Let's set alpha equal to 0.05 for a 95% confidence level. We can use the STDEV formula to calculate the standard deviation of the data as approximately 28.35. We can put this all together
+Now let's calculate confidence intervals. Recall that our data set had 19 observations and a mean of 40. Let's set alpha equal to 0.05 for a 95% confidence level. We can use the STDEV formula to calculate the standard deviation of the data as approximately 28.35.
 
 
 ---
@@ -103,15 +102,15 @@ key: "b0388610e6"
 ```
 
 `@part1`
-
+- confidence interval: `=CONFIDENCE(0.05, STDEV(A2:A20), COUNT(A2:A20))` {{5}}
 
 
 `@part2`
-
+![](https://assets.datacamp.com/production/repositories/4139/datasets/2557b5a995df2663f963e3b8b0feeb1776d5aeea/dc4.PNG)
 
 
 `@script`
-
+We can put this all together
 
 
 ---
