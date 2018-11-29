@@ -51,7 +51,7 @@ key: "b441ad0dc3"
 
 
 `@script`
-Confidence intervals help us assess the accuracy of our predictions. Imagine we have the following data set.
+Confidence intervals can help us do just that. They can assess the accuracy of our predictions by estimating the amount of error in the data.
 
 
 ---
