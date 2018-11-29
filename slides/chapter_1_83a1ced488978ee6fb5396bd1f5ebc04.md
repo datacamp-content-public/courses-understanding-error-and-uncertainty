@@ -20,7 +20,7 @@ This lesson will teach you some simple ways to distinguish between two groups us
 
 
 ---
-## Insert title here...
+## Confidence Intervals (CI)
 
 ```yaml
 type: "FullSlide"
@@ -28,11 +28,29 @@ key: "b441ad0dc3"
 ```
 
 `@part1`
+- Ranges of values that contain the true value X% of the time {{1}}
+    - Example: 95% CI contains the true value 95 of 100 data collections
+- Used to determine how accurate predictions are {{2}}
+
+
+`@script`
+Confidence intervals help us assess the accuracy of our predictions. Imagine we have the following data set.
+
+
+---
+## Confidence Intervals
+
+```yaml
+type: "FullImageSlide"
+key: "cce701e15b"
+```
+
+`@part1`
 
 
 
 `@script`
-
+Imagine we have the following data.
 
 
 ---
