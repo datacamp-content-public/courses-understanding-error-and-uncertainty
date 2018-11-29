@@ -162,7 +162,31 @@ We'll start with the average of our sales data.
 
 Then we'll calculate the confidence interval...
 
-... and add half of it to the mean we previously calculated.
+... and add half of it to the mean we previously calculated, which gives us an upper bound of approximately 46.37.
+
+
+---
+## Out of Bounds
+
+```yaml
+type: "TwoColumns"
+key: "de69c06e91"
+```
+
+`@part1`
+- lower bound {{1}}
+    - `=AVERAGE(A2:A20) - ` {{2}}
+    - `CONFIDENCE(0.05, STDEV(A2:A20), COUNT(A2:A20)` {{3}}
+    - `/ 2)`{{4}}
+    - `≈ 46.37` {{5}}
+
+
+`@part2`
+![](https://assets.datacamp.com/production/repositories/4139/datasets/dccf89670361ba91c3584364710b74db6c39e639/dc6.PNG) {{5}}
+
+
+`@script`
+
 
 
 ---
