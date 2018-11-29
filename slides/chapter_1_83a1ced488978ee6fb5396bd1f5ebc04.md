@@ -220,5 +220,5 @@ key: "407a6a4d5a"
 ```
 
 `@script`
-This lesson defined confidence intervals and showed you how to calculate them and use upper and lower bounds to determine significant differences. Now let's test your skills.
+This lesson defined confidence intervals and showed you how to calculate them and use upper and lower bounds to determine significant differences. Now let's test your skills!
 
