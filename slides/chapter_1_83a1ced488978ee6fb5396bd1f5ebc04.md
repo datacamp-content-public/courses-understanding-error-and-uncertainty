@@ -123,21 +123,36 @@ key: "fe6093ce4e"
 ```
 
 `@part1`
-- Upper and lower bounds
-    - Straddle mean
-- Mean outside of bounds
+
 
 
 `@part2`
-![](https://assets.datacamp.com/production/repositories/4139/datasets/c07bd3e92cba2df4eeeadb0737c12a321c8bbd6b/dc3.PNG) {{2}}
+![](https://assets.datacamp.com/production/repositories/4139/datasets/c07bd3e92cba2df4eeeadb0737c12a321c8bbd6b/dc3.PNG)
+
+
+`@script`
+
+
+
+---
+## Know Yo' Bounds
+
+```yaml
+type: "FullSlide"
+key: "7c114dadbe"
+```
+
+`@part1`
+- Upper and lower bounds straddle mean
+    - Upper bound: add half of CI to mean
+    - Lower bound: subtract half of CI from mean
+- Average outside of bounds indicates significant differences
 
 
 `@script`
 We typically refer to confidence intervals by their upper and lower bounds around the mean. Recall that in 95% of repeated samples the true average sales amount will fall between the upper and lower bound. 
 
 As such, half of the confidence interval we calculated will lie above the mean, while the other half will fall below. If the mean of our sales predictions falls outside of these bounds, we can say fairly confidently that these predictions differ significantly from reality.
-
-Let's practice calculating upper and lower bounds.
 
 
 ---
@@ -157,7 +172,7 @@ key: "b16cfd0244"
 
 
 `@script`
-
+Let's practice calculating upper and lower confidence interval bounds.
 
 
 ---
