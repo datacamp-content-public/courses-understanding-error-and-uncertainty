@@ -118,35 +118,15 @@ We can put this all together to calculate the confidence interval. Our formula r
 ## Know Yo' Bounds
 
 ```yaml
-type: "TwoColumns"
-key: "fe6093ce4e"
-```
-
-`@part1`
-
-
-
-`@part2`
-![](https://assets.datacamp.com/production/repositories/4139/datasets/c07bd3e92cba2df4eeeadb0737c12a321c8bbd6b/dc3.PNG)
-
-
-`@script`
-
-
-
----
-## Know Yo' Bounds
-
-```yaml
 type: "FullSlide"
 key: "7c114dadbe"
 ```
 
 `@part1`
-- Upper and lower bounds straddle mean
-    - Upper bound: add half of CI to mean
-    - Lower bound: subtract half of CI from mean
-- Average outside of bounds indicates significant differences
+- Upper and lower bounds straddle mean {{1}}
+    - Upper bound: add half of CI to mean {{2}}
+    - Lower bound: subtract half of CI from mean {{3}}
+- Average outside of bounds indicates significant differences {{4}}
 
 
 `@script`
