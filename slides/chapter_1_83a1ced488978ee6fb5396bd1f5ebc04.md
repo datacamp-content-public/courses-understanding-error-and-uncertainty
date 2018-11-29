@@ -47,8 +47,10 @@ key: "b441ad0dc3"
 `@part1`
 - Ranges of values that contain the true parameter X% of the time {{1}}
     - Example: 95% CI contains the true value 95 of 100 data collections
-- {{2}}
-- Can assess how accurate predictions are {{3}}
+- Function of three factors {{2}}
+    - alpha (confidence level) {{3}}
+    - variation in the data (standard deviation) {{4}}
+    - number of data points {{5}}
 
 
 `@script`
