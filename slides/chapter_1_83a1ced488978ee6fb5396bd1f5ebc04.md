@@ -174,19 +174,25 @@ key: "de69c06e91"
 ```
 
 `@part1`
-- lower bound {{1}}
+- lower bound
     - `=AVERAGE(A2:A20) - ` {{2}}
     - `CONFIDENCE(0.05, STDEV(A2:A20), COUNT(A2:A20)` {{3}}
     - `/ 2)`{{4}}
-    - `≈ 46.37` {{5}}
+    - `≈ 33.63` {{5}}
 
 
 `@part2`
-![](https://assets.datacamp.com/production/repositories/4139/datasets/dccf89670361ba91c3584364710b74db6c39e639/dc6.PNG) {{5}}
+![](https://assets.datacamp.com/production/repositories/4139/datasets/dccf89670361ba91c3584364710b74db6c39e639/dc6.PNG)
 
 
 `@script`
+Next we'll calculate the lower confidence interval bound. 
 
+Again we start with the average of our sales data.
+
+Then we'll calculate the confidence interval...
+
+... this time **subtracting** half of it from the mean we previously calculated, which gives us a lower bound of approximately 33.63.
 
 
 ---
