@@ -208,7 +208,7 @@ key: "d65d047df0"
 
 
 `@script`
-
+So what do these results tell us? Well we can see that the mean of the first set of predictions (which is 59.37, stored in cell B22), is outside the bounds of the confidence intervals of our sales data. This suggests these predictions might be outside the realm of normal variation. However, the mean of our analyst's second set of predictions is 42.84 (in cell D22), higher than the mean of our actual sales data but firmly within the bounds of our 95% confidence interval. We can conclude, then, that these predictions are not significantly different from our real data and may be more trustworthy than the first set.
 
 
 ---
