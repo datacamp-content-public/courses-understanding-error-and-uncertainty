@@ -76,15 +76,22 @@ key: "02c00250e9"
 ```
 
 `@part1`
-
+- n = 19 {{1}}
+    - `-=COUNT(A2:A20)`{{1}}
+- mean = 40 {{2}}
+   - `=AVERAGE(A2:A20)` {{2}}
+- alpha = 0.05
+- standard deviation = 28.35
+    - `=STDEV(A2:A20)`
+-
 
 
 `@part2`
-![](https://assets.datacamp.com/production/repositories/4139/datasets/2557b5a995df2663f963e3b8b0feeb1776d5aeea/dc4.PNG) {{2}}
+![](https://assets.datacamp.com/production/repositories/4139/datasets/2557b5a995df2663f963e3b8b0feeb1776d5aeea/dc4.PNG)
 
 
 `@script`
-Now let's calculate confidence intervals. Recall that our data set
+Now let's calculate confidence intervals. Recall that our data set had 19 observations and a mean of 40. Let's set alpha equal to 0.05 for a 95% confidence level.
 
 
 ---
