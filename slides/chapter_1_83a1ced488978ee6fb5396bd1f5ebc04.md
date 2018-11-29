@@ -11,7 +11,8 @@ key: "39293ca52c"
 ```
 
 `@lower_third`
-name: Name Surname
+
+name: Evan Kramer
 title: Instructor
 
 
