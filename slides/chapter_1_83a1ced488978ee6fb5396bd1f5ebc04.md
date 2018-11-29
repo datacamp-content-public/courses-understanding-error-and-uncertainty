@@ -130,7 +130,7 @@ key: "7c114dadbe"
 
 
 `@script`
-We typically refer to confidence intervals by their upper and lower bounds around the mean. Half of the confidence interval we calculated will lie above the mean, while the other half will fall below.
+We typically refer to confidence intervals by their upper and lower bounds around the mean. Half of the confidence interval we calculated will lie above the mean, while the other half will fall below it.
 
 Recall that in 95% of repeated samples the true average sales amount will fall between the upper and lower bound. As such,  If the mean of our sales predictions falls outside of these bounds, we can say fairly confidently that these predictions differ significantly from reality.
 
