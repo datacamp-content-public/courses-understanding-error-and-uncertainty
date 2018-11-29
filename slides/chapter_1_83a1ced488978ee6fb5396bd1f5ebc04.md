@@ -21,7 +21,7 @@ This lesson will teach you some simple ways to distinguish between two groups us
 
 
 ---
-## Confidence Intervals
+## Explore the Data
 
 ```yaml
 type: "FullImageSlide"
@@ -29,7 +29,7 @@ key: "cce701e15b"
 ```
 
 `@part1`
-![](https://assets.datacamp.com/production/repositories/4139/datasets/76e17596177fa4336c66312f6c9f672a5248a5c8/dc2.PNG)
+![](https://assets.datacamp.com/production/repositories/4139/datasets/76e17596177fa4336c66312f6c9f672a5248a5c8/dc2.PNG){{1}}
 
 
 `@script`
