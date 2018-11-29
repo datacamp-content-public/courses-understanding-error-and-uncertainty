@@ -21,6 +21,22 @@ This lesson will teach you some simple ways to distinguish between two groups us
 
 
 ---
+## Confidence Intervals
+
+```yaml
+type: "FullImageSlide"
+key: "cce701e15b"
+```
+
+`@part1`
+![](https://assets.datacamp.com/production/repositories/4139/datasets/76e17596177fa4336c66312f6c9f672a5248a5c8/dc2.PNG)
+
+
+`@script`
+Imagine we have the following data set, which lists actual sales for each of the last 19 days. An analyst on our team also created two sets of predictions using a number of different assumptions (such as whether the economy was improving, if it was sunny outside, etc.). We want to determine which set of predictions is more accurate, based on our actual sales data.
+
+
+---
 ## Confidence Intervals (CI)
 
 ```yaml
@@ -36,22 +52,6 @@ key: "b441ad0dc3"
 
 `@script`
 Confidence intervals help us assess the accuracy of our predictions. Imagine we have the following data set.
-
-
----
-## Confidence Intervals
-
-```yaml
-type: "FullImageSlide"
-key: "cce701e15b"
-```
-
-`@part1`
-
-
-
-`@script`
-Imagine we have the following data.
 
 
 ---
