@@ -131,7 +131,9 @@ key: "fe6093ce4e"
 
 
 `@script`
-We typically refer to confidence intervals by their upper and lower bounds around the mean. Recall that in 95% of repeated samples the true average sales amount will fall between the upper and lower bound. This means half of the confidence interval we calculated will lie above the mean, while the other half will fall below.
+We typically refer to confidence intervals by their upper and lower bounds around the mean. Recall that in 95% of repeated samples the true average sales amount will fall between the upper and lower bound. 
+
+As such, half of the confidence interval we calculated will lie above the mean, while the other half will fall below. If the mean of our sales predictions falls outside of these bounds, we can say fairly confident that these predictions differ significantly from reality.
 
 Let's practice calculating these. Let's say we want to calculate the upper and lower bounds of a 95% confidence interval for the average sales over the last 19 days.
 
