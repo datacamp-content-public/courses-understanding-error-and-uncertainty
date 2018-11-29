@@ -144,7 +144,11 @@ key: "b16cfd0244"
 ```
 
 `@part1`
-
+- upper bound
+    - `=AVERAGE(A2:A20) + `
+    - `CONFIDENCE(0.05, STDEV(A2:A20), COUNT(A2:A20)`
+    - `/ 2)`
+-
 
 
 `@part2`
@@ -152,7 +156,7 @@ key: "b16cfd0244"
 
 
 `@script`
-Now let's practice calculating upper and lower confidence interval bounds.
+Now let's calculate upper and lower confidence interval bounds.
 
 
 ---
