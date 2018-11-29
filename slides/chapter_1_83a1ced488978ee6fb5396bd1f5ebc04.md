@@ -144,15 +144,15 @@ key: "b16cfd0244"
 ```
 
 `@part1`
-- upper bound
-    - `=AVERAGE(A2:A20) + `
-    - `CONFIDENCE(0.05, STDEV(A2:A20), COUNT(A2:A20)`
-    - `/ 2)`
--
+- upper bound {{1}}
+    - `=AVERAGE(A2:A20) + ` {{2}}
+    - `CONFIDENCE(0.05, STDEV(A2:A20), COUNT(A2:A20)` {{3}}
+    - `/ 2)`{{4}}
+    - `≈ 46.37` {{5}}
 
 
 `@part2`
-![](https://assets.datacamp.com/production/repositories/4139/datasets/dccf89670361ba91c3584364710b74db6c39e639/dc6.PNG)
+![](https://assets.datacamp.com/production/repositories/4139/datasets/dccf89670361ba91c3584364710b74db6c39e639/dc6.PNG) {{5}}
 
 
 `@script`
