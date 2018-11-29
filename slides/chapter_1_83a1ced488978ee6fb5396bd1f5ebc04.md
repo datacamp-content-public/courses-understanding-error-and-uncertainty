@@ -156,7 +156,13 @@ key: "b16cfd0244"
 
 
 `@script`
-Now let's calculate upper and lower confidence interval bounds.
+Now let's calculate upper and lower confidence interval bounds, starting with the upper. 
+
+We'll start with the average of our sales data.
+
+Then we'll calculate the confidence interval...
+
+... and add half of it to the mean we previously calculated.
 
 
 ---
