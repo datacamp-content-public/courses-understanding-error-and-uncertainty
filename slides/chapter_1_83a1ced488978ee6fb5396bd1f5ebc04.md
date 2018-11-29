@@ -115,7 +115,7 @@ We can put this all together to calculate the confidence interval. Our formula r
 
 
 ---
-## Know Your Bounds
+## Know Yo' Bounds
 
 ```yaml
 type: "TwoColumns"
