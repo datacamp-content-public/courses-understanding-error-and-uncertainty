@@ -91,7 +91,27 @@ key: "02c00250e9"
 
 
 `@script`
-Now let's calculate confidence intervals. Recall that our data set had 19 observations and a mean of 40. Let's set alpha equal to 0.05 for a 95% confidence level. We can use the STDEV formula to calculate the standard deviation of the data
+Now let's calculate confidence intervals. Recall that our data set had 19 observations and a mean of 40. Let's set alpha equal to 0.05 for a 95% confidence level. We can use the STDEV formula to calculate the standard deviation of the data as approximately 28.35. We can put this all together
+
+
+---
+## CI Calculations
+
+```yaml
+type: "TwoColumns"
+key: "b0388610e6"
+```
+
+`@part1`
+
+
+
+`@part2`
+
+
+
+`@script`
+
 
 
 ---
