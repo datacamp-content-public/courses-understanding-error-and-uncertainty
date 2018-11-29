@@ -199,16 +199,16 @@ Then we'll calculate the confidence interval...
 ## Confident Conclusions
 
 ```yaml
-type: "FullImageSlide"
-key: "77e28dd6fc"
+type: "FullSlide"
+key: "d65d047df0"
 ```
 
 `@part1`
-
+![](https://assets.datacamp.com/production/repositories/4139/datasets/dccf89670361ba91c3584364710b74db6c39e639/dc6.PNG)
 
 
 `@script`
-![](https://assets.datacamp.com/production/repositories/4139/datasets/dccf89670361ba91c3584364710b74db6c39e639/dc6.PNG)
+
 
 
 ---
