@@ -58,6 +58,14 @@ Confidence intervals, or CI for short, can help us do just that. They can assess
 
 Confidence intervals are ranges of values that contain the true parameter a certain percentage of the time. When calculating CIs, we specify how much certainty we expect to have. For example, if we collect data 100 different times, a 95% confidence interval will contain the true value 95 of those times.
 
+CIs vary based on three factors: 1) the alpha, or confidence level; 2) the variance of the data, as measured by its standard deviation; and 3) the number of observations the data set contains. 
+
+The higher the confidence level, the larger the interval. This should make intuitive sense. A larger range (or interval), gives us more confidence that a given value will fall within it. A typical alpha level is 0.05 for 95% confidence. 
+
+The variation also impacts the size of the confidence interval. Data with more variation requires a larger confidence interval, as we grow less certain that our sample represents all the variation in the true data. 
+
+Finally, a higher number of observations decreases the size of the confidence interval because more data points give us greater predictive power and confidence.
+
 
 ---
 ## Know Your Bounds
@@ -68,11 +76,12 @@ key: "fe6093ce4e"
 ```
 
 `@part1`
-- This is part 1
+- Upper and lower bounds
+-
 
 
 `@part2`
-![](https://assets.datacamp.com/production/repositories/4139/datasets/c07bd3e92cba2df4eeeadb0737c12a321c8bbd6b/dc3.PNG)
+![](https://assets.datacamp.com/production/repositories/4139/datasets/c07bd3e92cba2df4eeeadb0737c12a321c8bbd6b/dc3.PNG) {{2}}
 
 
 `@script`
