@@ -60,7 +60,7 @@ Confidence intervals are ranges of values that contain the true parameter a cert
 
 
 ---
-## Building Your Confidence (Intervals)
+## Know Your Bounds
 
 ```yaml
 type: "FullSlide"
@@ -72,7 +72,7 @@ key: "d1196e7045"
 
 
 `@script`
--
+We typically
 
 
 ---
