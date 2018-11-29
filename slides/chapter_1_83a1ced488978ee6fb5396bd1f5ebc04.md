@@ -148,7 +148,7 @@ key: "b16cfd0244"
 
 
 `@part2`
-
+![](https://assets.datacamp.com/production/repositories/4139/datasets/dccf89670361ba91c3584364710b74db6c39e639/dc6.PNG)
 
 
 `@script`
