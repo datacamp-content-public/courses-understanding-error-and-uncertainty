@@ -68,6 +68,26 @@ Finally, a higher number of observations decreases the size of the confidence in
 
 
 ---
+## CI Calculations
+
+```yaml
+type: "TwoColumns"
+key: "02c00250e9"
+```
+
+`@part1`
+
+
+
+`@part2`
+![](https://assets.datacamp.com/production/repositories/4139/datasets/2557b5a995df2663f963e3b8b0feeb1776d5aeea/dc4.PNG) {{2}}
+
+
+`@script`
+Now let's calculate confidence intervals. Recall that our data set
+
+
+---
 ## Know Your Bounds
 
 ```yaml
