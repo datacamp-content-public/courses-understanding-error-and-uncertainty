@@ -63,22 +63,6 @@ Confidence intervals are ranges of values that contain the true parameter a cert
 ## Know Your Bounds
 
 ```yaml
-type: "FullSlide"
-key: "d1196e7045"
-```
-
-`@part1`
-
-
-
-`@script`
-
-
-
----
-## Know Your Bounds
-
-```yaml
 type: "TwoColumns"
 key: "fe6093ce4e"
 ```
