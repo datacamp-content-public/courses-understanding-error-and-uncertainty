@@ -17,7 +17,7 @@ title: Instructor
 
 
 `@script`
-This lesson will teach you some simple ways to distinguish between two groups using confidence intervals and t-tests. By the end of this chapter, you should be able to define these terms and use formulas to calculate significant differences between groups.
+This lesson will teach you some simple ways to distinguish between two groups using confidence intervals. By the end of this chapter, you should be able to define these terms and use formulas to calculate significant differences between groups.
 
 
 ---
