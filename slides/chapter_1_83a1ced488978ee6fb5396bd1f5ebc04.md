@@ -72,7 +72,7 @@ key: "d1196e7045"
 
 
 `@script`
-We typically refer to confidence intervals by their upper and lower bounds. Let's practice calculating these. Let's say we want to calculate the upper and lower bounds of a 95% confidence interval for the average sales over the last 19 days.
+
 
 
 ---
@@ -84,15 +84,15 @@ key: "fe6093ce4e"
 ```
 
 `@part1`
-
+- This is part 1
 
 
 `@part2`
-
+![](https://assets.datacamp.com/production/repositories/4139/datasets/c07bd3e92cba2df4eeeadb0737c12a321c8bbd6b/dc3.PNG)
 
 
 `@script`
-
+We typically refer to confidence intervals by their upper and lower bounds. Let's practice calculating these. Let's say we want to calculate the upper and lower bounds of a 95% confidence interval for the average sales over the last 19 days.
 
 
 ---
