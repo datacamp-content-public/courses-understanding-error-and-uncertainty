@@ -196,6 +196,22 @@ Then we'll calculate the confidence interval...
 
 
 ---
+## Confident Conclusions
+
+```yaml
+type: "FullImageSlide"
+key: "77e28dd6fc"
+```
+
+`@part1`
+
+
+
+`@script`
+![](https://assets.datacamp.com/production/repositories/4139/datasets/dccf89670361ba91c3584364710b74db6c39e639/dc6.PNG)
+
+
+---
 ## Let's Practice!
 
 ```yaml
