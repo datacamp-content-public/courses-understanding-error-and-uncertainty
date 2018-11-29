@@ -102,15 +102,16 @@ key: "b0388610e6"
 ```
 
 `@part1`
-- confidence interval: `=CONFIDENCE(0.05, STDEV(A2:A20), COUNT(A2:A20))` {{5}}
+- confidence interval: `=CONFIDENCE(0.05, STDEV(A2:A20), COUNT(A2:A20))` 
+- ≈ `12.75` {{1}}
 
 
 `@part2`
-![](https://assets.datacamp.com/production/repositories/4139/datasets/2557b5a995df2663f963e3b8b0feeb1776d5aeea/dc4.PNG)
+![](https://assets.datacamp.com/production/repositories/4139/datasets/2ba18c5922cef128bcfe9c13f462e4b457b0323f/dc5.PNG)
 
 
 `@script`
-We can put this all together
+We can put this all together to calculate the confidence interval. Our formula returns a result of approximately 12.75. But how should we use this information?
 
 
 ---
